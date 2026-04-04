@@ -1,0 +1,488 @@
+{
+  "business": {
+    "name": "Onyx Concrete",
+    "phone": "555-con-r93",
+    "category": "concrete",
+    "city": "Denver",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "concrete-dark-premium",
+      "categoryGroup": "concrete",
+      "name": "Dark Premium",
+      "recipeFile": "concrete/dark-premium.astro",
+      "colors": {
+        "primary": "#D4A574",
+        "primaryDark": "#aa845d",
+        "primaryLight": "#eedbc7",
+        "secondary": "#2A2A2A",
+        "accent": "#dab389",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "concrete/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Denver's Concrete Experts",
+      "heroSubline": "Precision concrete work built for Colorado's extremes. From historic foundations to modern patios, we pour durability into every project.",
+      "aboutTitle": "Built on Rocky Mountain Tough",
+      "aboutText": [
+        "Founded in 2012, Onyx Concrete started with a single truck and a commitment to withstand Denver's punishing freeze-thaw cycles. Twelve years later, we're still family-owned, just with 20+ crews tackling projects from Capitol Hill bungalows to Highlands Ranch mega-homes.",
+        "We mix old-school craftsmanship with polymer-reinforced concrete formulations specifically engineered for Front Range weather. No shortcuts, no excuses—just slabs that won't heave when the spring hailstorms hit.",
+        "When we're not pouring, we're coaching youth hockey at the Family Sports Center or sponsoring RiNo alleyway art installations. This city shapes us as much as we shape its concrete."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Mixes",
+          "description": "Our proprietary concrete blends resist spalling from freeze-thaw cycles and de-icing salts common in Denver winters."
+        },
+        {
+          "title": "Historic District Savvy",
+          "description": "We match original aggregates and finishes for Park Hill and LoDo preservation projects."
+        },
+        {
+          "title": "Hail-Ready Finishes",
+          "description": "Brushed and exposed aggregate surfaces withstand golf ball-sized hail without pitting."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Fixed-rate quotes include soil prep and compaction testing—critical for Denver's expansive clay soils."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Site Evaluation",
+      "ctaSubline": "Our crew chiefs will assess your project's needs and deliver a same-week quote."
+    },
+    "services": [
+      {
+        "slug": "driveway-installation",
+        "name": "Driveway Installation",
+        "shortDescription": "Hail-resistant driveways built for Denver's temperature swings.",
+        "description": "Aurora's clay soils and Littleton's steep grades demand driveways that won't crack after one winter. We pour 6-inch reinforced slabs with expansion joints precisely spaced for Colorado's 70° daily temperature fluctuations.\n\nFor historic districts like Platt Park, we replicate original exposed aggregate patterns. In newer developments like Stapleton, we install heated driveway systems to melt snow without salt damage. Every project includes 2-inch foam insulation at the perimeter to prevent frost heave.",
+        "process": [
+          "Step 1: Excavate 12 inches below grade, removing unstable fill common in 1970s Denver suburbs",
+          "Step 2: Compact road base with vibratory plate—critical for preventing sinkholes in Arvada's shifting soils",
+          "Step 3: Pour polymer-fortified concrete mixed with air entrainment admixtures",
+          "Step 4: Finish with hail-resistant broom or exposed aggregate textures"
+        ],
+        "benefits": [
+          "Withstands -20°F winters without spalling",
+          "Reinforced with fiber mesh to prevent cracking",
+          "Sloped for proper drainage during spring melts",
+          "Custom formwork for curved Denver lots"
+        ],
+        "faq": [
+          {
+            "question": "How thick should a Denver driveway be?",
+            "answer": "We insist on 6 inches—2 inches thicker than code minimum. Thin slabs crack when Lakewood's clay soils expand during spring rains."
+          },
+          {
+            "question": "Do you repair existing driveways?",
+            "answer": "Only full replacements. Patching fails within a year due to differential movement in Colorado's unstable subsoils."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Stabilizing Colorado's shifting soils under your home.",
+        "description": "Denver's expansive clay soils wreak havoc on foundations, especially in 1960s ranch homes common in Lakewood. We install helical piers that anchor into stable bedrock 15+ feet down—bypassing the moisture-sensitive upper layers.\n\nFor historic brick homes in Baker District, we use carbon fiber straps that won't alter the facade. All repairs include interior epoxy injections to seal cracks from basement to roof line, preventing heat loss during those -10° January nights.",
+        "process": [
+          "Step 1: Ground-penetrating radar locates voids under slab—common near Cherry Creek's old flood zones",
+          "Step 2: Hydraulic jacks lift settled corners with 1/8-inch precision",
+          "Step 3: Install galvanized steel piers with lifetime transferable warranty",
+          "Step 4: Inject polyurethane foam to stabilize loose soils"
+        ],
+        "benefits": [
+          "Prevents door/window sticking from frame shifts",
+          "Eliminates basement leaks during snowmelt",
+          "Preserves historic home integrity",
+          "Stops drywall cracks from reappearing"
+        ],
+        "faq": [
+          {
+            "question": "How long does foundation repair last?",
+            "answer": "Our helical pier systems carry a 50-year warranty. They've outlasted three owners in some Wash Park Victorians."
+          },
+          {
+            "question": "Will my insurance cover this?",
+            "answer": "Usually not—Colorado considers soil movement 'gradual damage.' We offer 12-month financing at 5.9% APR."
+          }
+        ]
+      },
+      {
+        "slug": "stamped-concrete",
+        "name": "Stamped Concrete",
+        "shortDescription": "Artistic patios that handle Red Rocks concert traffic.",
+        "description": "From RiNo rooftop decks to Wash Park garden paths, our stamped concrete withstands foot traffic and UV exposure without fading. We use release colors mixed into the concrete—not surface stains—so patterns stay vibrant through Colorado's 300 annual sunny days.\n\nSpecializing in locally inspired designs: sandstone textures mimicking Red Rocks, geometric patterns echoing the Denver Art Museum, even custom stencils of your favorite 14er. All surfaces receive penetrating sealers that repel grill grease and margarita spills.",
+        "process": [
+          "Step 1: Laser-grade the site to prevent puddling under summer downpours",
+          "Step 2: Pour 4000-psi concrete with integral color matching your sample",
+          "Step 3: Hand-stamp within 90-minute window for crisp patterns",
+          "Step 4: Apply two coats of alcohol-based sealer (no VOC off-gassing)"
+        ],
+        "benefits": [
+          "No hot-surface burns like pavers in July",
+          "Seamless snow removal unlike brick",
+          "Custom designs without mason costs",
+          "No weed growth through joints"
+        ],
+        "faq": [
+          {
+            "question": "Does stamped concrete get slippery?",
+            "answer": "We add aluminum oxide grit to the sealer—it's safer than flagstone when icy, as several LoDo bar owners can attest."
+          },
+          {
+            "question": "Can you match my historic home's walkway?",
+            "answer": "Bring a chip to our Commerce City plant. We'll replicate original aggregates and scoring patterns."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-floors",
+        "name": "Polished Concrete Floors",
+        "shortDescription": "Industrial-chic floors for Denver's loft conversions.",
+        "description": "The go-to solution for RiNo warehouses and LoDo condos, our polished concrete floors retain thermal mass to cut heating bills during those -15° January nights. We grind to 800 grit for a satin finish that hides scuffs from bike tires and dog claws.\n\nOptional radiant heat cables get embedded during polishing—perfect for basement ADUs in Capitol Hill. For breweries and distilleries, we apply flake-resistant epoxy coatings that withstand barrel rolling and acid spills.",
+        "process": [
+          "Step 1: Diamond grind to expose aggregate (removes old adhesives common in Denver's converted factories)",
+          "Step 2: Fill cracks with semi-flexible polymer mortar",
+          "Step 3: Polish with progressively finer diamonds",
+          "Step 4: Apply lithium silicate densifier to prevent dusting"
+        ],
+        "benefits": [
+          "30% more energy efficient than carpet",
+          "No allergens or off-gassing",
+          "Withstands brewery/restaurant traffic",
+          "Compatible with in-floor heating"
+        ],
+        "faq": [
+          {
+            "question": "Are polished floors cold in winter?",
+            "answer": "They feel 5-8° warmer than tile due to thermal mass. Add radiant heat for toasty toes during Broncos games."
+          },
+          {
+            "question": "Can you polish my existing slab?",
+            "answer": "Only if it's in good condition. We'll core test first—many Denver slabs from the 1980s have delamination issues."
+          }
+        ]
+      },
+      {
+        "slug": "sidewalk-replacement",
+        "name": "Sidewalk Replacement",
+        "shortDescription": "ADA-compliant walks that survive plow damage.",
+        "description": "Denver's sidewalk repair ordinances hit hard—we help homeowners avoid fines with replacements that exceed city specs. Our mixes include microfibers to prevent tree root damage common in Park Hill's canopy streets.\n\nSlopes are precisely graded at 8.33% for wheelchair access without ice buildup. Expansion joints get filled with winter-resistant silicone, not cheap tar that fails in six months. We coordinate directly with the city inspector to fast-track permits.",
+        "process": [
+          "Step 1: Saw-cut removal to prevent damage to adjacent slabs",
+          "Step 2: Install root barriers if replacing near city trees",
+          "Step 3: Pour 5-inch fiber-reinforced concrete",
+          "Step 4: Stamp with city-issued inspection number"
+        ],
+        "benefits": [
+          "No trip hazards from frost heave",
+          "Meets strict Denver municipal code",
+          "Root barriers protect mature trees",
+          "Seamless curb ramp transitions"
+        ],
+        "faq": [
+          {
+            "question": "How long until I can walk on it?",
+            "answer": "72 hours in summer, 96 in winter. We mark it with caution tape—no ruined paw prints like that viral LoDo dog incident."
+          },
+          {
+            "question": "Will the city reimburse costs?",
+            "answer": "Only if you qualify for the Neighborhood Sidewalk Program. We handle all paperwork for eligible properties."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mitch T.",
+        "rating": 5,
+        "service": "Driveway Installation",
+        "text": "Onyx replaced our cracked 1980s driveway in Arvada with a heated slab that melted last week's snow in 20 minutes. Crew worked through a hailstorm to finish before Thanksgiving. The textured finish hides oil stains from my old Bronco.",
+        "date": "2025-03-14"
+      },
+      {
+        "name": "Lena K.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "Our Capitol Hill Victorian had 3-inch foundation cracks letting in cold drafts. Onyx installed 12 piers and foam-filled the voids—house is quieter and our gas bill dropped $80/month. They even matched the original mortar color on the exposed brick.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Stamped Concrete",
+        "text": "The Red Rocks-inspired patio at our Morrison Airbnb gets constant compliments. Spilled beer wipes right off, and the integrated snow melt system means no cancellations for ice. Crew finished ahead of schedule despite spring snow.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Dani W.",
+        "rating": 5,
+        "service": "Polished Concrete Floors",
+        "text": "Converted our RiNo warehouse into a distillery tasting room. Onyx's polished floors handle dropped barrels and high heels equally well. The lithium treatment prevents concrete dust from contaminating our spirits.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Sidewalk Replacement",
+        "text": "Denver tagged our Park Hill sidewalk for immediate replacement. Onyx had it done in 2 days with root barriers to protect our 50-year-old elm. Inspector said it was the cleanest joint work he'd seen all year.",
+        "date": "2024-08-29"
+      },
+      {
+        "name": "Sophie L.",
+        "rating": 5,
+        "service": "Driveway Installation",
+        "text": "After 3 companies refused our steep Littleton lot, Onyx engineered a curved driveway with integrated drainage. The exposed aggregate matches our 1920s bungalow's original walkway. Plow guys say it's the easiest driveway on their route.",
+        "date": "2024-07-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Denver Concrete Contractors | Onyx Concrete",
+        "description": "Local concrete experts serving Denver since 2012. Specializing in climate-adapted driveways, foundations, and stamped patios for Colorado homes."
+      },
+      "about": {
+        "title": "About Onyx Concrete | Denver CO Contractors",
+        "description": "Family-owned concrete company with 800+ Denver projects completed. Learn why we're trusted for historic homes and modern builds alike."
+      },
+      "services": {
+        "title": "Denver Concrete Services | Driveways & More",
+        "description": "From hail-resistant driveways to polished floors, we deliver durable concrete solutions for Denver's extreme weather and soil conditions."
+      },
+      "contact": {
+        "title": "Contact Onyx Concrete | Denver CO",
+        "description": "Get a free quote from Denver's trusted concrete contractors. Serving Aurora, Lakewood, Arvada, and all Front Range communities."
+      },
+      "reviews": {
+        "title": "Onyx Concrete Reviews | Denver CO",
+        "description": "See why Denver homeowners and businesses rate us 5 stars for foundation repair, stamped concrete, and driveway installations."
+      },
+      "service-areas": {
+        "title": "Denver Concrete Service Areas | Onyx",
+        "description": "Proudly serving Denver, Aurora, Lakewood, Arvada, Littleton, and Highlands Ranch with premium concrete solutions since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Aurora",
+        "slug": "aurora-co",
+        "state": "CO",
+        "content": "Onyx Concrete proudly serves Aurora, CO, a vibrant city with a mix of 1970s-80s suburban developments that often require durable concrete solutions. Our team specializes in repairing and upgrading driveways, patios, and foundations to withstand the region's cold winters and heavy snowfall. Whether you need a new stamped concrete walkway or a reinforced garage slab, we provide high-quality work tailored to Aurora's unique needs. Aurora's growing population and varied architectural styles make it an ideal location for our customized concrete services.",
+        "localContext": "Aurora features 1970s-80s suburban homes that often need concrete maintenance due to freeze-thaw cycles.",
+        "nearbyAreas": [
+          "Denver",
+          "Centennial",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Lakewood",
+        "slug": "lakewood-co",
+        "state": "CO",
+        "content": "In Lakewood, CO, Onyx Concrete delivers expert concrete solutions for the city's distinctive 1960s-70s split-level homes. Many of these properties feature aging driveways, walkways, and basement slabs that require professional attention. Our team is experienced in handling the challenges posed by Lakewood's cold winters and heavy snowfall, ensuring long-lasting repairs and installations. From decorative stamped concrete to structural repairs, we help homeowners maintain and enhance their properties with durable, weather-resistant materials.",
+        "localContext": "Lakewood's 1960s-70s split-level homes often need concrete updates to combat wear from harsh winters.",
+        "nearbyAreas": [
+          "Denver",
+          "Golden",
+          "Arvada"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "slug": "arvada-co",
+        "state": "CO",
+        "content": "Onyx Concrete is proud to serve Arvada, CO, where many homes date back to the 1960s-70s ranch-style era. These properties often feature expansive concrete driveways and patios that show signs of aging over time. Our team specializes in repairing cracks, resurfacing worn slabs, and installing new concrete features that complement Arvada's classic aesthetic. With cold winters and heavy snow impacting concrete durability, our services ensure your outdoor spaces remain functional and attractive for years to come.",
+        "localContext": "Arvada's ranch-style homes from the 1960s-70s frequently need concrete repairs due to freeze-thaw damage.",
+        "nearbyAreas": [
+          "Westminster",
+          "Broomfield",
+          "Lakewood"
+        ]
+      },
+      {
+        "city": "Littleton",
+        "slug": "littleton-co",
+        "state": "CO",
+        "content": "Littleton, CO, is home to charming historic downtown bungalows that benefit from Onyx Concrete's expertise. Many of these properties require concrete maintenance, from repairing old sidewalks to installing modern stamped concrete patios. Our team understands Littleton's unique architectural character and provides solutions that blend seamlessly with its historic charm. With the region's cold winters and heavy snowfall, we prioritize durable materials and techniques to ensure longevity and visual appeal.",
+        "localContext": "Littleton's historic bungalows often need concrete updates to preserve their character while improving functionality.",
+        "nearbyAreas": [
+          "Englewood",
+          "Highlands Ranch",
+          "Centennial"
+        ]
+      },
+      {
+        "city": "Highlands Ranch",
+        "slug": "highlands-ranch-co",
+        "state": "CO",
+        "content": "Highlands Ranch, CO, is a master-planned community with homes primarily built in the 1990s-2000s, making it a prime area for Onyx Concrete's services. Many homeowners here seek modern concrete solutions like decorative driveways, outdoor kitchens, and retaining walls. Our team is skilled in creating functional yet stylish concrete features that enhance Highlands Ranch's well-maintained neighborhoods. Given the area's cold winters and heavy snowfall, we use high-grade materials to ensure durability and curb appeal.",
+        "localContext": "Highlands Ranch's newer homes often incorporate modern concrete designs that require expert installation.",
+        "nearbyAreas": [
+          "Littleton",
+          "Lone Tree",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "slug": "westminster-co",
+        "state": "CO",
+        "content": "Onyx Concrete serves Westminster, CO, a city with a mix of mid-century and contemporary homes that benefit from our concrete expertise. Many properties here feature aging driveways, sidewalks, and garage slabs that need repairs or replacements. We specialize in addressing the challenges posed by Westminster's cold winters and heavy snowfall, offering solutions like reinforced concrete and heated driveway systems. Whether it's a simple repair or a full installation, we deliver lasting quality tailored to the area's needs.",
+        "localContext": "Westminster's diverse housing stock includes many mid-century homes needing concrete updates for weather resistance.",
+        "nearbyAreas": [
+          "Arvada",
+          "Broomfield",
+          "Thornton"
+        ]
+      },
+      {
+        "city": "Centennial",
+        "slug": "centennial-co",
+        "state": "CO",
+        "content": "Centennial, CO, is a thriving community where Onyx Concrete provides top-tier concrete services for homes and businesses. Many properties in Centennial feature expansive concrete patios, driveways, and walkways that require maintenance due to the area's harsh winter conditions. Our team specializes in repairing cracks, installing stamped concrete, and reinforcing slabs to withstand freeze-thaw cycles. With a focus on durability and aesthetics, we help Centennial residents maintain beautiful and functional outdoor spaces.",
+        "localContext": "Centennial's mix of suburban and commercial properties demands resilient concrete solutions for heavy snow and cold.",
+        "nearbyAreas": [
+          "Littleton",
+          "Aurora",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Parker",
+        "slug": "parker-co",
+        "state": "CO",
+        "content": "Parker, CO, is a growing town where Onyx Concrete offers expert concrete services for both historic and modern homes. Many properties in Parker feature large driveways and outdoor living spaces that require durable concrete solutions. Our team is adept at handling the challenges posed by Parker's cold winters and heavy snowfall, providing everything from crack repairs to custom-stamped concrete installations. Whether you're upgrading a historic home or building new, we deliver reliable and visually appealing results.",
+        "localContext": "Parker's blend of historic charm and new developments makes it a key area for concrete maintenance and upgrades.",
+        "nearbyAreas": [
+          "Aurora",
+          "Castle Rock",
+          "Centennial"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "driveway-installation": "/images/service-driveway-installation.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "stamped-concrete": "/images/service-stamped-concrete.webp",
+      "concrete-floors": "/images/service-concrete-floors.webp",
+      "sidewalk-replacement": "/images/service-sidewalk-replacement.webp"
+    },
+    "servicesResponsive": {
+      "driveway-installation": {
+        "src": "/images/service-driveway-installation.webp",
+        "srcset": "/images/service-driveway-installation-400w.webp 400w, /images/service-driveway-installation-800w.webp 800w, /images/service-driveway-installation-1200w.webp 1200w, /images/service-driveway-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stamped-concrete": {
+        "src": "/images/service-stamped-concrete.webp",
+        "srcset": "/images/service-stamped-concrete-400w.webp 400w, /images/service-stamped-concrete-800w.webp 800w, /images/service-stamped-concrete-1200w.webp 1200w, /images/service-stamped-concrete.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-floors": {
+        "src": "/images/service-concrete-floors.webp",
+        "srcset": "/images/service-concrete-floors-400w.webp 400w, /images/service-concrete-floors-800w.webp 800w, /images/service-concrete-floors-1200w.webp 1200w, /images/service-concrete-floors.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sidewalk-replacement": {
+        "src": "/images/service-sidewalk-replacement.webp",
+        "srcset": "/images/service-sidewalk-replacement-400w.webp 400w, /images/service-sidewalk-replacement-800w.webp 800w, /images/service-sidewalk-replacement-1200w.webp 1200w, /images/service-sidewalk-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
